@@ -21,7 +21,7 @@ const ProjectSection = () => {
         <Row className="projetPortfolio p-5">
           <Col lg={6}>
             <img
-              src="CaptureHomePortfolio.jpg"
+              src="https://github.com/Auguste-Romain14/My_Portfolio/blob/main/public/CaptureHomePortfolio.JPG?raw=true"
               alt="image du portfolio"
               className="w-100"
             />
