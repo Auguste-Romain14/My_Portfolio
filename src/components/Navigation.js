@@ -1,6 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 
 const Navigation = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  };
   return (
     <>
       <nav class="navbar navbar-expand-lg sticky-top">
@@ -12,15 +17,19 @@ const Navigation = () => {
           <button
             class="navbar-toggler"
             type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
+            // data-bs-toggle="collapse"
+            // data-bs-target="#navbarSupportedContent"
+            // aria-controls="navbarSupportedContent"
+            // aria-expanded="false"
+            // aria-label="Toggle navigation"
+            onClick={toggleMenu}
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div
+            class={`collapse navbar-collapse ${isOpen ? "show" : ""}`}
+            id="navbarSupportedContent"
+          >
             <ul class="navbar-nav ms-auto fs-6 mb-2 mb-lg-0">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">
