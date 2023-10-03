@@ -10,8 +10,8 @@ const Navigation = () => {
     <>
       <nav class="navbar navbar-expand-lg sticky-top">
         <div class="container-fluid ">
-          <img src="/assets/Ma-photo.jpg" className="maPhoto" alt="" />
-          <a class="navbar-brand fw-5 fs-4" href="#">
+          <img src="/assets/Ma-photo.jpg" className="maPhoto mx-lg-5" alt="" />
+          <a class="navbar-brand fs-6" href="#">
             Auguste AKO LATH
           </a>
           <button
@@ -37,17 +37,27 @@ const Navigation = () => {
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">
+                <a class="nav-link" href="#about" onClick={toggleMenu}>
                   A PROPOS
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" aria-disabled="true">
+                <a
+                  class="nav-link"
+                  href="#project"
+                  aria-disabled="true"
+                  onClick={toggleMenu}
+                >
                   PROJETS
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" aria-disabled="true">
+                <a
+                  class="nav-link"
+                  href="#contact"
+                  aria-disabled="true"
+                  onClick={toggleMenu}
+                >
                   CONTACT
                 </a>
               </li>

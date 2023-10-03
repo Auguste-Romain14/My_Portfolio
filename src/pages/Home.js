@@ -1,6 +1,7 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import { BsDashLg } from "react-icons/bs";
+import ProjectSection from "../components/ProjectSection";
 
 const Home = () => {
   return (
@@ -21,14 +22,16 @@ const Home = () => {
 
       {/* section 2 : A propos */}
 
-      <>
+      <div className="about py-5">
         <Container>
-          <div className="text-center my-5">
-            <h2 className="display-5">A PROPOS DE MOI</h2>
+          <div className="text-center py-5">
+            <h2 className="display-5" id="about">
+              A PROPOS DE MOI
+            </h2>
             <BsDashLg className="display-4 dash" />
             <p className="sousTitre">
               Vous trouverez ici plus d'informations sur moi, ce que je fais, et
-              mes compétences actuelles, principalement en termes de
+              mes compétences actuelles, <br /> principalement en termes de
               programmation et de technologie.
             </p>
           </div>
@@ -63,6 +66,11 @@ const Home = () => {
                   contribuer, apprendre et grandir. Si vous avez une bonne
                   opportunité qui correspond à mes compétences et à mon
                   expérience, n'hésitez pas à me contacter.
+                  <br />
+                  <br />
+                  <button className="btn btn-contact btn-lg shadow text-white ">
+                    CONTACT
+                  </button>
                 </p>
               </div>
             </Col>
@@ -106,7 +114,12 @@ const Home = () => {
             </Col>
           </Row>
         </Container>
-      </>
+      </div>
+
+      {/* Section 3 : Projects */}
+      <div className="projets">
+        <ProjectSection />
+      </div>
     </div>
   );
 };

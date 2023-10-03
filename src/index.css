@@ -19,7 +19,7 @@ h2{
 }
 
 p.sousTitre{
-  font-size: 1.3rem;
+  font-size: 1.2rem;
 }
 
 
@@ -54,16 +54,44 @@ nav{
 .presentation p {
   text-align: justify;
 }
+
+.about{
+  background-color: #fafafa;
+}
+
+/* Section 3 */
+.projets{
+  background-color: #ffffff;
+}
 /* bouton */
 
-.btn-accueil{
+.btn-accueil, .btn-contact{
   background-color: #7843e9;
   padding: 10px 100px;
 }
 
-.btn-accueil:hover{
+.btn-accueil:hover, .btn-contact:hover{
   background-color: #7843e9;
   letter-spacing: 0.5rem;
+}
+
+.btn-contact{
+  background-color: #7843e9;
+  padding: 10px 50px;
+}
+
+.btn-contact:hover{
+  background-color: #7843e9;
+  letter-spacing: 0.3rem;
+}
+
+.btn-voir{
+  background-color: #7843e9;
+}
+
+.btn-voir:hover{
+  background-color: #7843e9;
+  letter-spacing: 0.1rem;
 }
 
 /*Images*/
@@ -73,7 +101,7 @@ nav{
   width: 60px;
   border-radius: 50%;
   border: 10px solid #ffff;
-  margin-left: 50px !important;
+  /* margin-left: 50px !important; */
 }
 
 /* Icones */
