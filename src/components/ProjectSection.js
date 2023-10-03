@@ -21,7 +21,7 @@ const ProjectSection = () => {
         <Row className="projetPortfolio p-5">
           <Col lg={6}>
             <img
-              src="https://github.com/Auguste-Romain14/My_Portfolio/blob/main/public/CaptureHomePortfolio.JPG?raw=true"
+              src="/assets/CaptureHomePortfolio.JPG"
               alt="image du portfolio"
               className="w-100"
             />
@@ -50,7 +50,7 @@ const ProjectSection = () => {
         <Row className="projetDashboard p-5">
           <Col lg={6}>
             <img
-              src="/assets/CaptureHomeDashboard.jpg"
+              src="/assets/CaptureHomeDashboard.JPG"
               alt=""
               className="w-100"
             />
@@ -78,7 +78,7 @@ const ProjectSection = () => {
 
         <Row className="projetVSP p-5">
           <Col lg={6}>
-            <img src="/assets/CaptureHomeVSP.jpg" alt="" className="w-100" />
+            <img src="/assets/CaptureHomeVSP.JPG" alt="" className="w-100" />
           </Col>
           <Col lg={6} className="p-5">
             <h3 className="fw-bold">VSP Sécurité</h3>
