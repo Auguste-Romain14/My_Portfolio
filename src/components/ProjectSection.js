@@ -21,8 +21,8 @@ const ProjectSection = () => {
         <Row className="projetPortfolio p-5">
           <Col lg={6}>
             <img
-              src="/assets/CaptureHomePortfolio.jpg"
-              alt=""
+              src="CaptureHomePortfolio.jpg"
+              alt="image du portfolio"
               className="w-100"
             />
           </Col>
