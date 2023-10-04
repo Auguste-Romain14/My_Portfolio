@@ -63,6 +63,33 @@ nav{
 .projets{
   background-color: #ffffff;
 }
+
+/* section 4 */
+
+.contact{
+  background-image: url('/public/assets/fond-formes-geometriques-bleu-abstrait.jpg');
+  min-height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+
+/*===================================================================================================
+  footer
+  ===================================================================================================*/
+
+  /* .copyR{
+    border-top: 0.00001rem solid #fafafa;
+  } */
+
+  .socialMedia a{
+    text-decoration: none;
+    color: white;
+  }
+
+  .footext{
+    font-size: 0.8rem;
+  }
+
 /* bouton */
 
 .btn-accueil, .btn-contact{

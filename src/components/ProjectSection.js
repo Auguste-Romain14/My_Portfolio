@@ -6,10 +6,8 @@ const ProjectSection = () => {
   return (
     <>
       <Container>
-        <div className="text-center my-5">
-          <h2 className="display-5" id="project">
-            MES PROJETS
-          </h2>
+        <div className="text-center py-5">
+          <h2 className="display-5 pt-5">MES PROJETS</h2>
           <BsDashLg className="display-4 dash" />
           <p className="sousTitre ">
             Vous trouverez ici quelques-uns des projets personnels et <br /> de
