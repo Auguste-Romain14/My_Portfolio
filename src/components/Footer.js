@@ -1,6 +1,6 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import { BsGithub, BsLinkedin } from "react-icons/bs";
+import { BsGithub, BsLinkedin, BsWhatsapp } from "react-icons/bs";
 import { FaGitlab } from "react-icons/fa";
 
 const Footer = () => {
@@ -15,9 +15,9 @@ const Footer = () => {
               applications Web qui mènent au succès de l'ensemble du produit.
             </p>
           </Col>
-          <Col className="socialMedia text-end">
+          <Col className="socialMedia text-center">
             <h4 className="pb-4">Reseaux Sociaux</h4>
-            <div className="d-flex justify-content-end gap-5 fs-3">
+            <div className="d-flex justify-content-center gap-3 fs-3">
               <a
                 href="http://github.com/Auguste-Romain14"
                 target="_blank"
@@ -38,6 +38,13 @@ const Footer = () => {
                 rel="noopener noreferrer"
               >
                 <BsLinkedin />
+              </a>
+              <a
+                href="https://wa.me/2250759242776"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <BsWhatsapp />
               </a>
             </div>
           </Col>
